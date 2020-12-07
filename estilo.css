@@ -1,28 +1,6 @@
 
-#banner img{
-    width: 750px;
-    height: 269px;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-article {
-    width: 750px;
-    height: 62px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-
 #texto-explicativo {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 162%;
 }
 
 nav {
