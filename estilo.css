@@ -1,13 +1,6 @@
 
 
-nav {
-}
 
-.container-nav {
-    width: 180px;
-    height: 265px;
-    margin-right: 80px;
-}
 
 #dpp img,
 #direx img,
@@ -33,10 +26,9 @@ nav {
 }
 
 .descricao p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11pt;
     line-height: 162%;
     color: #222;
 }
@@ -58,7 +50,7 @@ nav {
     text-decoration: none;
     color: #222;
     font-family: 'Open Sans';
-    font-size: 12px;
+    font-size: 10pt;
     font-weight: 600;
 }
 
