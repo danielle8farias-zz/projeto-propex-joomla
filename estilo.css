@@ -1,0 +1,108 @@
+
+#banner img{
+    width: 750px;
+    height: 269px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    width: 750px;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#texto-explicativo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 162%;
+}
+
+nav {
+    width: 750px;
+    height: 270px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.container-nav {
+    width: 180px;
+    height: 265px;
+    margin-right: 80px;
+}
+
+#dpp img,
+#direx img,
+#editais img {
+    width: 130px;
+    height: 148px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dpp {
+    float: left;
+}
+
+.descricao {
+    width: 172px;
+    height: 40px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descricao p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 162%;
+    color: #222;
+}
+
+.botao-acessar {
+    width: 78px;
+    height: 29px;
+    background-color: #EAEBEE;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #222;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#direx {
+    float: right;
+    width: 200px;
+}
+
+#descricao-direx {
+    width: 200px;
+    height: 40px;
+}
+
+#descricao-editais {
+    padding-top: 12px;
+}
