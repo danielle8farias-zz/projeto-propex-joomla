@@ -1,39 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.corpo-pagina {
-    margin: 0 auto;
-}
-
-.titulo-1 {
-    width: 750px;
-    height: 37px;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-bottom: 15px;
-    margin-left: auto;
-}
-
-.titulo-1 h1{        
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 37px;
-    line-height: 105%;
-    color: #000;
-}
-
-#banner img{
-    width: 750px;
-    height: 269px;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #divisao {
     width: 726px;
