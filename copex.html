@@ -25,6 +25,7 @@
     <p style="width: 749px;
     height: 150px;
     margin: 0 auto;
+    margin-bottom: 20px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
@@ -40,16 +41,18 @@
     height: 400px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 30px;
     " src="images/tabela-diretores-copex.png" alt="tabela de diretores da copex">
 
+    <!-- botões de navegação -->
     <div style="margin: 0 auto;
     width: 750px;
     height: 70px;
     ">
-        <ul style="display: inline-flex;
-        list-style-type: none;
+        <div style="display: inline-flex;
+        margin-left: 40px;
         ">
-            <li>
+            <div>
                 <a style="display: inline-block;
                 background: #EAEBEE;
                 border: 1px solid #C4C4C4;
@@ -67,8 +70,9 @@
                 " href="#objetivos">
                     Objetivos
                 </a>
-            </li>
-            <li>
+            </div>
+
+            <div>
                 <a style="display: inline-block;
                 background: #EAEBEE;
                 border: 1px solid #C4C4C4;
@@ -82,11 +86,13 @@
                 line-height: 23px;
                 color: #000;
                 margin-right: 200px;
-                " id="">
+                text-decoration: none;
+                " href="#membros">
                     Membros
                 </a>
-            </li>
-            <li>
+            </div>
+
+            <div>
                 <a style="display: inline-block;
                 background: #EAEBEE;
                 border: 1px solid #C4C4C4;
@@ -102,18 +108,20 @@
                 " id="">
                     Reuniões
                 </a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 
+    <!-- botão de objetivos -->
     <div style="margin: 0 auto;
     width: 750px;
     height: 50px;
+    margin-bottom: -15px;
     ">
-        <ul style="display: inline-flex;
-        list-style-type: none;
+        <div style="display: inline-flex;
+        margin-left: 20px;
         ">
-            <li>
+            <div>
                 <a style="display: inline-block;
                 background: #EAEBEE;
                 border: 1px solid #C4C4C4;
@@ -121,18 +129,18 @@
                 border-radius: 5px;
                 font-family: 'Open Sans';
                 font-style: normal;
-                font-weight: 600; /* diferente do protótipo */
+                font-weight: 600;
                 font-size: 12pt;
                 line-height: 23px;
                 color: #000;
-                margin-right: 200px;
                 " id="objetivos">
                     Objetivos
                 </a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 
+    <!-- lista de objetivos -->
     <div style="text-align: justify;
     width: 750px;
     margin: auto;
@@ -141,6 +149,7 @@
     padding-left: 0;
     padding-top: 20px;
     padding-bottom: 15px;
+    margin-bottom: 20px;
     ">
 
         <div style="background-color: #EAEBEE;
@@ -418,10 +427,154 @@
         </div>
     </div>
 
+    <!-- botão de membros -->
+    <div style="margin: 0 auto;
+    width: 750px;
+    height: 50px;
+    margin-bottom: -15px;
+    ">
+        <div style="margin-left: 20px;
+        ">
+            <div>
+                <a style="display: inline-block;
+                background: #EAEBEE;
+                border: 1px solid #C4C4C4;
+                padding: 10px;
+                border-radius: 5px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12pt;
+                line-height: 23px;
+                color: #000;
+                " id="membros">
+                    Membros
+                </a>
+            </div>
+        </div>
+    </div>
 
+    <!-- card de membros -->
+    <div style="text-align: justify;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    ">
+        <!-- 1º colaborador -->
+        <div style="background-color: #C4C4C4;
+        width: 225px;
+        height: 320px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 30px;
+        position: absolute;
+        ">
+            <div style="height: 118px;
+            width: 118px;
+            margin-top: -35px;
+            margin-left: 110px;
+            ">
+                <img style="object-fit: cover;
+                float: right;
+                left: 50%;
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                display: block;
+                " src="images/copex0001.jpg" alt="colaboradora Irane Gonçalves da Silva">
+            </div>
+            <div style="width: 111px;
+            height: 43px;
+            margin-top: -80px;
+            ">
+                <p style="font-size: 11pt;
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 23px;
+                text-align: center;
+                color: #222222;
+                ">
+                    Campus<br> Aracaju
+                </p>
+            </div>
+            <p style="width: 180px;
+            height: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11pt;
+            margin-top: 30px;
+            margin-left: 10px;
+            align-items: center;
+            text-align: center;
+            ">
+                Irane Gonçalves da Silva
+            </p>
+            <p style="font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11.5px;
+            line-height: 12pt;
+            display: flex;
+            align-items: center;
+            color: #222;
+            width: 195px;
+            height: 100px;
+            margin-left: 14px;
+            ">
+                Licenciada em Ciências Biológicas e Mestre em Zoologia. Lotada na Gerência de Graduação e Pós-graduação, e Coordenadora de Pesquisa e Extensão.
+            </p>
+            <p style="width: 148px;
+            height: 22px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 9pt;
+            display: flex;
+            align-items: center;
+            color: #000;
+            margin-left: 30px;
+            ">
+                <img style=" width: 20px;
+                height: 20px;
+                margin-right: 5px;
+                " src="images/email-icone.png" alt="email">
+                <a style="text-decoration: none;
+                color: #000;"
+                href="mailto:copex.aracaju@ifs.edu.br">
+                    copex.aracaju@ifs.edu.br
+                </a>
+            </p>
+            <p style="width: 148px;
+            height: 22px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 9pt;
+            display: flex;
+            align-items: center;
+            color: #000;
+            margin-left: 30px;
+            ">
+                <img style=" width: 20px;
+                height: 20px;
+                margin-right: 5px;
+                " src="images/tel-icone.png" alt="telefone">
+                    (79) 3711-3119
+            </p>
+        </div>
 
+    </div>
 
     <!-- fim -->
-    
+
 </body>
 </html>
