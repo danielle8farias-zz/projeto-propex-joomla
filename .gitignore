@@ -4,3 +4,9 @@
 *.PDF
 *.doc
 *.DOC
+*.docx
+*.DOCx
+*.doc#
+*.DOC# 
+*.docx# 
+*.DOCx#
